@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional: Ensures the body takes up the full viewport height */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 min-h-screen flex items-center justify-center">
+
+    <!-- The centered, minimal text block -->
+    <div class="p-8 text-center">
+        <p class="text-sm tracking-widest text-gray-400 uppercase font-light">
+            Better kept secret than Victoria's
+        </p>
+    </div>
+
+</body>
+</html>
